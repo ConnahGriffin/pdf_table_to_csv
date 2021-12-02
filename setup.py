@@ -163,7 +163,7 @@ setup(
     # executes the function `main` from this package when invoked:
     entry_points={  # Optional
         'console_scripts': [
-            'start=pwmanager_package:main',
+            'start=tableflip:main',
         ],
     },
 
@@ -177,7 +177,7 @@ setup(
     # maintainers, and where to support the project financially. The key is
     # what's used to render the link text on PyPI.
     project_urls={  # Optional
-        'Bug Reports': 'https://github.com/HLDLSolutionsPvtLtd/PWManager-GUI/issues',
-        'Source': 'https://github.com/HLDLSolutionsPvtLtd/PWManager-GUI',
+        'Bug Reports': 'https://github.com/HLDLSolutionsPvtLtd/pdf_table_to_csv/issues',
+        'Source': 'https://github.com/HLDLSolutionsPvtLtd/pdf_table_to_csv',
     },
 )
